@@ -1,0 +1,14 @@
+{
+  "name": "api_db",
+  "version": "1.0.0",
+  "description": "Fake APIs using json-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "author": "MD SADAB SAQIB",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

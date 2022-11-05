@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tests Suite">
+
+    <listeners>
+        <listener class-name="com.testnepal.listeners.Listener" />
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="ReqRes API Tests">
+        <classes>
+            <class name="com.testnepal.tests.GetCallSampleTests" />
+            <class name="com.testnepal.tests.PostCallSampleTests" />
+            <class name="com.testnepal.tests.PatchCallSampleTests" />
+            <class name="com.testnepal.tests.PutCallSampleTests" />
+            <class name="com.testnepal.tests.DeleteCallSampleTests" />
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Local API Tests">
+        <classes>
+            <class name="com.testnepal.tests.LocalAPITests" />
+        </classes>
+    </test>
+</suite>
